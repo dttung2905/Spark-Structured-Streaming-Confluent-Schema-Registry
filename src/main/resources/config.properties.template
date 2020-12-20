@@ -1,0 +1,12 @@
+#http://florentfo.rest/2019/01/07/configuring-spark-applications-with-typesafe-config.html/
+#https://stackoverflow.com/questions/48315355/reading-a-config-file-which-is-placed-on-my-linux-node-in-scala
+
+
+schemaRegistry=http://your-schema-registry-endpoint
+inputKafkaTopic=input-kafka-topic
+outputKafkaTopic=output-kafka-topic
+kafka.bootstrap.servers=12.345.6.789:9092
+offset=latest
+checkpointLocation=checkpoint/folder/location
+outputKafkaSchema={"kafka":"schema"}
+spark.master=local
